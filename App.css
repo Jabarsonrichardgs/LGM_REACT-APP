@@ -1,0 +1,125 @@
+body{
+  background: url('bg3.jpg');
+  background-size: cover;
+}
+button{
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background-color:  black;
+  padding: 12px 10px;
+  margin-top: -110px;
+}
+
+button:hover{
+  width: 10%;
+  transition: 200ms;
+  scale:1.03;
+  background-color: rgb(204, 26, 26);
+}
+
+.column-1{
+  height: 100%;
+  float: left;
+  width: 90%;
+}
+.column-2{
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+.row{
+  height: 50px;
+  padding: 20px 50px 0px 30px ;
+}
+
+.box{
+  border-bottom: 5px solid black;
+  padding: 40px;
+  background-color:transparent;
+  color:rgb(160, 33, 86);
+}
+
+.box-2{
+  margin-left: 100px;
+}
+
+.avatar{
+  border-radius: 50%;
+}
+
+
+.column-3{
+  float: left !important;
+  width: 33% !important;
+}
+h2{
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 40px;
+  color: white;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+
+.profile {
+
+  border: 1.5px initial rgb(160, 33, 86);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 300px;
+  margin: 20px 50px;
+  text-align: center;
+  font-family: arial;
+  padding: 50px;
+  background-color: black;
+}
+
+.profile:hover{
+  transition:400ms;
+  box-shadow: 0 8px 16px 0 rgba(90, 12, 58, 0.582);
+  transform: translateY(-10px);
+}
+.email {
+  color: white;
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.name{
+  font-size:25px;
+  font-weight: bold;
+  color: white;
+}
+#main{
+  display: flex;
+}
+.loader{
+  margin-left: 300px;
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .profile{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .name{
+    font-size:medium;
+  }
+  .column-3{
+    float: left;
+    margin-left: 60px;
+  } 
+
+  .box{
+    width:110vh;
+  }
+  
+}
